@@ -13,6 +13,7 @@
 		490FC993201E87F9005ED50B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 490FC992201E87F9005ED50B /* Assets.xcassets */; };
 		490FC996201E87F9005ED50B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 490FC994201E87F9005ED50B /* LaunchScreen.storyboard */; };
 		490FC999201E87F9005ED50B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 490FC998201E87F9005ED50B /* main.m */; };
+		490FC9A3201E8D27005ED50B /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 490FC9A2201E8D27005ED50B /* ImageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		490FC995201E87F9005ED50B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		490FC997201E87F9005ED50B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		490FC998201E87F9005ED50B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		490FC9A1201E8D27005ED50B /* ImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		490FC9A2201E8D27005ED50B /* ImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				490FC98A201E87F9005ED50B /* AppDelegate.m */,
 				490FC98C201E87F9005ED50B /* ViewController.h */,
 				490FC98D201E87F9005ED50B /* ViewController.m */,
+				490FC9A1201E8D27005ED50B /* ImageViewController.h */,
+				490FC9A2201E8D27005ED50B /* ImageViewController.m */,
 				490FC98F201E87F9005ED50B /* Main.storyboard */,
 				490FC992201E87F9005ED50B /* Assets.xcassets */,
 				490FC994201E87F9005ED50B /* LaunchScreen.storyboard */,
@@ -144,6 +149,7 @@
 			files = (
 				490FC98E201E87F9005ED50B /* ViewController.m in Sources */,
 				490FC999201E87F9005ED50B /* main.m in Sources */,
+				490FC9A3201E8D27005ED50B /* ImageViewController.m in Sources */,
 				490FC98B201E87F9005ED50B /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

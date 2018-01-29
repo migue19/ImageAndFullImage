@@ -7,17 +7,44 @@
 //
 
 #import "ViewController.h"
+#import "ImageViewController.h"
 
-@interface ViewController ()
+@interface ViewController (){
+    NSString *nameImg;
+}
 
 @end
 
 @implementation ViewController
 
+
 - (void)viewDidLoad {
     [super viewDidLoad];
+    nameImg = @"mike";
+    
     // Do any additional setup after loading the view, typically from a nib.
+    UIImage *img = [UIImage imageNamed:nameImg];
+    
+    [_image setImage:img forState:UIControlStateNormal];
 }
+
+
+
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    // Make sure your segue name in storyboard is the same as this line
+    if ([[segue identifier] isEqualToString:@"img"])
+    {
+        // Get reference to the destination view controller
+        ImageViewController *vc = [segue destinationViewController];
+        vc.nameImg = nameImg;
+        
+    }
+}
+
+
+
 
 
 - (void)didReceiveMemoryWarning {
